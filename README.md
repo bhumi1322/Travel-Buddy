@@ -33,19 +33,34 @@ Safe parsing of AI responses
 
 
 🏗️ Tech Stack
+
 Frontend
+
 HTML
+
 CSS
+
 JavaScript
+
 Backend
+
 Java (Spring Boot)
+
 APIs
+
 Geoapify (Geocoding + Route Matrix)
+
 AI Model (HuggingFace / LLM API)
+
 ⚙️ System Architecture
+
+
 Frontend (UI)
+
      ↓
+
 Spring Boot Backend
+
      ↓
 
 

@@ -30,6 +30,8 @@ Backend logic + prompt engineering used for control
 API failure handling (Geoapify + AI)
 CORS configuration for frontend-backend communication
 Safe parsing of AI responses
+
+
 🏗️ Tech Stack
 Frontend
 HTML
@@ -45,11 +47,17 @@ Frontend (UI)
      ↓
 Spring Boot Backend
      ↓
+
+
+     
  ┌───────────────┬───────────────┐
  | Geoapify API  | AI Service    |
  | (distance)    | (itinerary)   |
  └───────────────┴───────────────┘
      ↓
+
+
+     
 Processed Response → Frontend Display
 🔄 Workflow
 User enters:

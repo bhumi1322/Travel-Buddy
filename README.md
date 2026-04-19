@@ -5,30 +5,55 @@
 Voyager AI is an intelligent travel planning system that helps users efficiently organize multi-destination trips. Unlike traditional route planners, it combines AI-generated itineraries, real-time travel data, and user preferences to create optimized and personalized travel plans.
 
 ✨ Key Features
+
 🧭 Route Optimization
+
 Computes the most efficient path between multiple destinations
+
 Uses distance matrix (Geoapify API)
+
 Implements a greedy nearest-neighbor algorithm for shortest route
+
 🚗 Travel Insights
+
 Distance between cities (km)
+
 Estimated travel time (hours)
+
 Travel cost estimation (₹/km based)
+
 🤖 AI-Powered Itinerary
+
 Generates day-wise travel plans
+
 Includes:
+
 Popular attractions
+
 Adventure activities
+
 Cultural experiences
+
 Ensures balanced schedules (time-constrained)
+
 🎯 Preference-Based Planning
+
 Customizes trips based on user selection:
+
 ⚡ Fastest
+
 💰 Cheapest
+
 ⚖️ Balanced
+
 Backend logic + prompt engineering used for control
+
 🛡️ Robust Backend Handling
+
 API failure handling (Geoapify + AI)
+
 CORS configuration for frontend-backend communication
+
 Safe parsing of AI responses
 
 
@@ -66,7 +91,8 @@ Spring Boot Backend
 
      
  ┌───────────────┬───────────────┐
- | Geoapify API  | AI Service    |
+ | 
+   Geoapify API  | AI Service    |
  | (distance)    | (itinerary)   |
  └───────────────┴───────────────┘
      ↓

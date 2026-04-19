@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voyager AI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">🌍 Voyager AI</div>
+</header>
+
+<div class="container">
+
+  <!-- Stops -->
+  <div class="card">
+    <h3>Route Stops</h3>
+    <div id="stops"></div>
+    <button class="add-btn" onclick="addStop()">+ Add Stop</button>
+  </div>
+
+  <!-- Modes -->
+  <div class="card">
+    <h3>Travel Modes</h3>
+    <div id="modes"></div>
+  </div>
+
+  <!-- Preferences -->
+  <div class="card">
+    <h3>Optimize For</h3>
+    <div id="prefs"></div>
+  </div>
+
+  <!-- Budget -->
+  <div class="card">
+    <h3>Trip Details</h3>
+    <label>Budget: $<span id="budgetVal">1500</span></label>
+    <input type="range" id="budget" min="100" max="8000" value="1500">
+  </div>
+
+  <button class="generate-btn" onclick="generate()">✦ Generate Plans</button>
+
+  <!-- Results -->
+  <div id="results"></div>
+  <div id="map" style="height:400px; margin-top:20px;"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

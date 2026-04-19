@@ -68,6 +68,10 @@ Output:
 Optimized route
 Travel breakdown
 Day-wise plan
+
+
+
+
 📊 Example Output
 Route: Delhi → Rishikesh → Haridwar
 

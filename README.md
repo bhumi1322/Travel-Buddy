@@ -87,14 +87,11 @@ Frontend (UI)
 Spring Boot Backend
 
      ↓
-
-
      
- ┌───────────────┬───────────────┐
- | 
-   Geoapify API  | AI Service    |
- | (distance)    | (itinerary)   |
- └───────────────┴───────────────┘
+   Geoapify API  
+   
+   AI Service(itinerary)   
+
      ↓
 
 
@@ -136,11 +133,14 @@ Day 2: Haridwar
 - Ganga Aarti
 - Mansa Devi Temple
 - Local Market Exploration
+
+  
 🚧 Challenges Faced
 Handling inconsistent AI responses
 Implementing CORS between frontend & backend
 Preventing backend crashes due to API failures
 Ensuring realistic itinerary generation
+
 🔮 Future Improvements
 Strict backend-based preference filtering
 Integration with hotel & booking APIs
